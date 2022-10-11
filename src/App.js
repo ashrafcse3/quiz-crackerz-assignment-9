@@ -19,11 +19,13 @@ function App() {
         },
         {
           path: '/statics',
-          element: <Statics></Statics>
+          element: <Statics></Statics>,
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz')
         },
         {
           path: '/blogs',
-          element: <Blogs></Blogs>
+          element: <Blogs></Blogs>,
+          loader: () => fetch('blogs.json')
         },
         {
           path: '/quiz/:quizId',

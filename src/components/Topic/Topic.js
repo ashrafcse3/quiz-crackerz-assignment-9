@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Topic = ({ topic }) => {
     const { id, name, logo, total } = topic;
-    console.log(name)
+    // console.log(name)
     return (
         <div className='bg-gray-500 rounded-xl p-4 text-white'>
             <h3 className='text-3xl'>{name}</h3>

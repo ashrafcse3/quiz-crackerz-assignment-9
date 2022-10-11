@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "question": "What is the purpose of a react router?",
+        "answer": "React router helps react library to change the url and the page contents without refreshing the webpage. It also gives some tools which make many things much easier for developers, like loader attribute which fetch the data from the api for the first time visit on that website and send the data into the declared element."
+    },
+    {
+        "id": 2,
+        "question": "How does context api work?",
+        "answer": "React context api is a global variable which works across the whole injected part. This is an alternative for 'prop drilling' concept where a variable has to be sent through one component to another one and the next one; even sometimes some components do not use the sent data but to send its children component it has to be sent through its parent component."
+    },
+    {
+        "id": 3,
+        "question": "Write some lines about the 'useRef' hook?",
+        "answer": "The useRef hook allows us to keep values between the renders. It can be used to store a changeable value which does not require to re-render when the page gets re-rendered. It also can be used to access a DOM element directly."
+    }
+]

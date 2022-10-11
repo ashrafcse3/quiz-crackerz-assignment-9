@@ -4,9 +4,9 @@ import Question from '../Question/Question';
 
 const Quiz = () => {
     const { data } = useLoaderData();
-    console.log(data);
+    // console.log(data);
     const { name, questions } = data;
-    console.log(questions[2]);
+    // console.log(questions[2]);
 
     return (
         <div className='bg-gray-200 grid grid-cols-4'>
